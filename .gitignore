@@ -1,1 +1,5 @@
 venv/
+# 排除所有目录下的__pycache__文件夹
+*/__pycache__
+*/*/__pycache__
+*/*/*/__pycache__

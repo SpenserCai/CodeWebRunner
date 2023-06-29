@@ -3,12 +3,12 @@ Author: SpenserCai
 Date: 2023-06-29 13:53:06
 version: 
 LastEditors: SpenserCai
-LastEditTime: 2023-06-29 14:04:44
+LastEditTime: 2023-06-29 17:06:47
 Description: file content
 '''
 from pydantic import BaseModel
-from typing import Dict, Any
+from typing import Dict
 
 class RequestData(BaseModel):
-    argv: Dict[str, Any]
+    argv: Dict
     code: str
