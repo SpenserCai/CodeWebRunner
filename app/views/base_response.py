@@ -3,15 +3,13 @@ Author: SpenserCai
 Date: 2023-06-29 14:09:39
 version: 
 LastEditors: SpenserCai
-LastEditTime: 2023-06-29 14:10:31
+LastEditTime: 2023-07-03 11:26:00
 Description: file content
 '''
 from pydantic import BaseModel
-from typing import TypeVar, Generic
+from typing import Dict
 
-DataT = TypeVar("DataT")
-
-class BaseResponse(BaseModel, Generic[DataT]):
+class BaseResponse(BaseModel):
     code: int
     msg: str
-    data: DataT
+    data: Dict
