@@ -6,9 +6,9 @@
  * @LastEditTime: 2023-06-29 17:19:59
  * @Description: file content
 -->
-# OpenCvWebRunner
+# CodeCvWebRunner
 
-以WebApi的方式运行OpenCv的图像处理算法
+以WebApi的方式运行Python代码，这将是AiMediaService的一部分，为了实现一个可以整合ai能力PaaS化开发落地应用的平台
 
 ## 用法请求/api/run接口
 
