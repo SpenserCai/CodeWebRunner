@@ -3,7 +3,7 @@
  # @Date: 2023-06-29 10:22:22
  # @version: 
  # @LastEditors: SpenserCai
- # @LastEditTime: 2023-06-29 16:07:40
+ # @LastEditTime: 2023-07-11 10:48:42
  # @Description: file content
 ### 
 
@@ -17,5 +17,8 @@ fi
 # 激活虚拟环境
 source $VENV_PATH/bin/activate
 
+# 安装依赖
+pip install -r requirements.txt
+
 # 执行代码
-$PYTHON_COMMAND OpenCvWebRunner.py
+$PYTHON_COMMAND CodeWebRunner.py
