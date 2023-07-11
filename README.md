@@ -3,10 +3,10 @@
  * @Date: 2023-06-29 10:27:02
  * @version: 
  * @LastEditors: SpenserCai
- * @LastEditTime: 2023-07-11 10:52:00
+ * @LastEditTime: 2023-07-11 10:58:22
  * @Description: file content
 -->
-# CodeCvWebRunner
+# CodeWebRunner
 
 以WebApi的方式运行Python代码，这将是AiMediaService的一部分，为了实现一个可以整合ai能力PaaS化开发落地应用的平台
 
