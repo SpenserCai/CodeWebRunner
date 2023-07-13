@@ -3,7 +3,7 @@ Author: SpenserCai
 Date: 2023-06-29 14:35:43
 version: 
 LastEditors: SpenserCai
-LastEditTime: 2023-07-12 17:00:09
+LastEditTime: 2023-07-13 09:48:27
 Description: file content
 '''
 import cv2
@@ -30,8 +30,6 @@ class CodeExecutor:
         }
         if argvs is None:
             argvs = self.argvs
-        # 统一捕获异常
-        result = self.Script(**argvs)
         try:
             # 调用 Script 函数
             result = self.Script(**argvs)
